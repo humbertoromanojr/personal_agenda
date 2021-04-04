@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 
 class ContactPage extends StatefulWidget {
+
+  ContactPage(); // constructor
+
   @override
   _ContactPageState createState() => _ContactPageState();
 }
