@@ -5,7 +5,7 @@ class ContactPage extends StatefulWidget {
 
   final Contact contact;
 
-  ContactPage(this.contact); // constructor
+  ContactPage({this.contact}); // constructor
 
   @override
   _ContactPageState createState() => _ContactPageState();
