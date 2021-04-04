@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:personal_agenda/helpers/contact_helper.dart';
 
 class ContactPage extends StatefulWidget {
 
-  ContactPage(); // constructor
+  final Contact contact;
+
+  ContactPage(this.contact); // constructor
 
   @override
   _ContactPageState createState() => _ContactPageState();
