@@ -31,6 +31,10 @@ class _ContactPageState extends State<ContactPage> {
       _editContact = Contact();
     } else {
       _editContact = Contact.fromMap(widget.contact.toMap());
+
+      _nameController.text = _editContact.name;
+      _emailController.text = _editContact.email;
+      _phoneController.text = _editContact.phone;
     }
 
   }
