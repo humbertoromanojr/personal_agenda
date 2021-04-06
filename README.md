@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://i.ibb.co/RCGYvR1/flutter-bottom.jpg" alt="flutter-bottom" border="0">
+  <img src="https://i.ibb.co/RCGYvR1/flutter-bottom.jpg" width="100" alt="flutter-bottom" border="0">
 <br>
 <br>
 PERSONAL AGENDA
@@ -8,7 +8,13 @@ PERSONAL AGENDA
 > Status Project: In Development :warning: => :construction::construction::construction::construction::construction:
 :guitar: JR Dev :guitar:
 
+![Badge](https://img.shields.io/static/v1?label=flutter&message=FrameWork&color=blue&style=for-the-badge&logo=FLUTTER)
 
+![Badge](https://img.shields.io/github/issues/humbertoromanojr/personal_agenda?logo=visual-studio-code&style=plastic&logo=appveyor)
+![Badge](https://img.shields.io/github/forks/humbertoromanojr/personal_agenda)
+![Badge](https://img.shields.io/github/stars/humbertoromanojr/personal_agenda)
+![Badge](https://img.shields.io/github/license/humbertoromanojr/personal_agenda)
+![Badge](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fhumbertoromanojr%2Fpersonal_agenda)
 
 ## Install project
 Copy project
