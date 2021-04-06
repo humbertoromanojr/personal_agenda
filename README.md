@@ -18,8 +18,8 @@ PERSONAL AGENDA
 
 ## MOBILE
 
--   **Dart** — Is a client-optimized language for fast apps on any platform
-- ️ **Flutter** — :sparkling_heart::sparkling_heart: Is Google’s UI toolkit for building beautiful, natively compiled applications for mobile Android and IOS, web, and desktop from a single codebase.
+-   :dart: **Dart** — Is a client-optimized language for fast apps on any platform
+- ️ :blue_heart: **Flutter** — Is Google’s UI toolkit for building beautiful, natively compiled applications for mobile Android and IOS, web, and desktop from a single codebase.
 
 -   [cupertino_icons](https://pub.dev/packages/cupertino_icons)
 -   [sqflite](https://pub.dev/packages/sqflite)
@@ -31,14 +31,6 @@ PERSONAL AGENDA
 Copy project
 `git clone https://github.com/humbertoromanojr/personal_agenda`
 
-Install node_modules
-`npm or yarn install`
-
-Start Bundle
-`npm or yarn start`
-
-Run a app
-`npm or yarn android or ios`
 
 
 ## Demostration app
