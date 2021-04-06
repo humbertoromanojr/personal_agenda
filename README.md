@@ -16,6 +16,17 @@ PERSONAL AGENDA
 ![Badge](https://img.shields.io/github/license/humbertoromanojr/personal_agenda)
 ![Badge](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fhumbertoromanojr%2Fpersonal_agenda)
 
+## MOBILE
+
+-   **Dart** — Is a client-optimized language for fast apps on any platform
+- ️ **Flutter** — :sparkling_heart::sparkling_heart: Is Google’s UI toolkit for building beautiful, natively compiled applications for mobile Android and IOS, web, and desktop from a single codebase.
+
+-   [cupertino_icons](https://pub.dev/packages/cupertino_icons)
+-   [sqflite](https://pub.dev/packages/sqflite)
+-   [url_launcher](https://pub.dev/packages/url_launcher)
+-   [image_picker](https://pub.dev/packages/image_picker)
+
+
 ## Install project
 Copy project
 `git clone https://github.com/humbertoromanojr/personal_agenda`
