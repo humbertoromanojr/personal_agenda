@@ -21,10 +21,10 @@ PERSONAL AGENDA
 -   :blue_heart:  **Dart** — Is a client-optimized language for fast apps on any platform
 - ️ :blue_heart:  **Flutter** — Is Google’s UI toolkit for building beautiful, natively compiled applications for mobile Android and IOS, web, and desktop from a single codebase.
 
-:dart:   [cupertino_icons](https://pub.dev/packages/cupertino_icons)
-:dart:   [sqflite](https://pub.dev/packages/sqflite)
-:dart:   [url_launcher](https://pub.dev/packages/url_launcher)
-:dart:   [image_picker](https://pub.dev/packages/image_picker)
+:dart:   [cupertino_icons](https://pub.dev/packages/cupertino_icons) <br>
+:dart:   [sqflite](https://pub.dev/packages/sqflite) <br>
+:dart:   [url_launcher](https://pub.dev/packages/url_launcher) <br>
+:dart:   [image_picker](https://pub.dev/packages/image_picker) <br>
 
 
 ## Install project
