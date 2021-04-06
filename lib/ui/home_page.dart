@@ -5,6 +5,8 @@ import 'package:personal_agenda/helpers/contact_helper.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'contact_page.dart';
 
+enum OrderOptions {orderaz, orderza}
+
 class HomePage extends StatefulWidget {
   @override
   _HomePageState createState() => _HomePageState();
@@ -29,6 +31,21 @@ class _HomePageState extends State<HomePage> {
         title: Text("Personal Agenda: My Contacts"),
         backgroundColor: Colors.indigoAccent,
         centerTitle: true,
+        actions: <Widget>[
+          PopupMenuButton<OrderOptions>(
+              itemBuilder: (context) => <PopupMenuEntry<OrderOptions>>[
+                const PopupMenuItem<OrderOptions>(
+                  child: Text("Sort to A-Z"),
+                  value: OrderOptions.orderaz,
+                ),
+                const PopupMenuItem<OrderOptions>(
+                  child: Text("Sort to Z-A"),
+                  value: OrderOptions.orderza,
+                ),
+              ],
+            onSelected: _sortList,
+          )
+        ],
       ),
       backgroundColor: Colors.indigo,
       floatingActionButton: FloatingActionButton(
@@ -173,4 +190,23 @@ class _HomePageState extends State<HomePage> {
       });
     });
   }
+
+  void _sortList(OrderOptions result) {
+    switch(result){
+      case OrderOptions.orderaz:
+        contacts.sort((a, b){
+          return a.name.toLowerCase().compareTo(b.name.toLowerCase());
+        });
+        break;
+      case OrderOptions.orderza:
+        contacts.sort((a, b){
+          return b.name.toLowerCase().compareTo(a.name.toLowerCase());
+        });
+        break;
+    }
+    setState(() {
+      
+    });
+  }
+
 }
