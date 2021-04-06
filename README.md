@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="" width="200" alt="" border="0">
+  <img src="https://i.ibb.co/RCGYvR1/flutter-bottom.jpg" alt="flutter-bottom" border="0">
 <br>
 <br>
 PERSONAL AGENDA
@@ -12,7 +12,7 @@ PERSONAL AGENDA
 
 ## Install project
 Copy project
-`git clone https://github.com/humbertoromanojr/pokemons.git`
+`git clone https://github.com/humbertoromanojr/personal_agenda`
 
 Install node_modules
 `npm or yarn install`
@@ -26,7 +26,7 @@ Run a app
 
 ## Demostration app
 <br>
-  <img src="" alt="" border="0">
+  <img src="https://i.ibb.co/W3MzhzY/personal-agenda.png" alt="personal-agenda" border="0">
 <br>
 
 
