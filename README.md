@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://i.ibb.co/RCGYvR1/flutter-bottom.jpg" width="100" alt="flutter-bottom" border="0">
+  <img src="https://i.ibb.co/SVbpCsv/flutter-bottom.png" width="100" alt="flutter-bottom" border="0">
 <br>
 <br>
 PERSONAL AGENDA
@@ -18,13 +18,13 @@ PERSONAL AGENDA
 
 ## MOBILE
 
--   :dart: **Dart** — Is a client-optimized language for fast apps on any platform
-- ️ :blue_heart: **Flutter** — Is Google’s UI toolkit for building beautiful, natively compiled applications for mobile Android and IOS, web, and desktop from a single codebase.
+-   :blue_heart:  **Dart** — Is a client-optimized language for fast apps on any platform
+- ️ :blue_heart:  **Flutter** — Is Google’s UI toolkit for building beautiful, natively compiled applications for mobile Android and IOS, web, and desktop from a single codebase.
 
--   [cupertino_icons](https://pub.dev/packages/cupertino_icons)
--   [sqflite](https://pub.dev/packages/sqflite)
--   [url_launcher](https://pub.dev/packages/url_launcher)
--   [image_picker](https://pub.dev/packages/image_picker)
+:dart:   [cupertino_icons](https://pub.dev/packages/cupertino_icons)
+:dart:   [sqflite](https://pub.dev/packages/sqflite)
+:dart:   [url_launcher](https://pub.dev/packages/url_launcher)
+:dart:   [image_picker](https://pub.dev/packages/image_picker)
 
 
 ## Install project
@@ -53,7 +53,7 @@ GitLab: https://gitlab.com/hjrdev <br />
 Email: astronomi@gmail.com <br />
 <br />
 
-Made with :heart: and lots of animation by :guitar: JR Dev :guitar:
+Made with :blue_heart:  and lots of animation and passion by :guitar: JR Dev :guitar:
 
 
 
