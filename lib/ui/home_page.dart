@@ -92,7 +92,55 @@ class _HomePageState extends State<HomePage> {
           )),
         ),
       onTap: (){
-          _showContactPage(contact: contacts[index]);
+          _showOptions(context, index);
+      }
+    );
+  }
+
+  void _showOptions(BuildContext context, int index){
+    showModalBottomSheet(
+      context: context,
+      builder: (context){
+        return BottomSheet(
+            onClosing: (){},
+            builder: (context){
+              return Container(
+                padding: EdgeInsets.all(10.0),
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: <Widget>[
+                    Padding(
+                      padding: EdgeInsets.all(10.0),
+                      child: FlatButton(
+                        child: Icon(Icons.phone, size: 40.0, color: Colors.indigo,),
+                        onPressed: (){
+
+                        },
+                      ),
+                    ),
+                    Padding(
+                      padding: EdgeInsets.all(10.0),
+                      child: FlatButton(
+                        child: Icon(Icons.edit, size: 40.0, color: Colors.indigo,),
+                        onPressed: (){
+
+                        },
+                      ),
+                    ),
+                    Padding(
+                      padding: EdgeInsets.all(10.0),
+                      child: FlatButton(
+                        child: Icon(Icons.delete, size: 40.0, color: Colors.indigo,),
+                        onPressed: (){
+
+                        },
+                      ),
+                    ),
+                  ],
+                ),
+              );
+            }
+        );
       }
     );
   }
