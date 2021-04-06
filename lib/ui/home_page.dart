@@ -123,7 +123,8 @@ class _HomePageState extends State<HomePage> {
                       child: FlatButton(
                         child: Icon(Icons.edit, size: 40.0, color: Colors.indigo,),
                         onPressed: (){
-
+                          Navigator.pop(context);
+                          _showContactPage(contact: contacts[index]);
                         },
                       ),
                     ),
@@ -132,7 +133,11 @@ class _HomePageState extends State<HomePage> {
                       child: FlatButton(
                         child: Icon(Icons.delete, size: 40.0, color: Colors.indigo,),
                         onPressed: (){
-
+                          helper.deleteContact(contacts[index].id);
+                          setState(() {
+                            contacts.removeAt(index);
+                            Navigator.pop(context);
+                          });
                         },
                       ),
                     ),
