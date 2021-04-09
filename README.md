@@ -1,7 +1,9 @@
 <h1 align="center">
-  <img src="https://i.ibb.co/SVbpCsv/flutter-bottom.png" width="100" alt="flutter-bottom" border="0">
-<br>
-<br>
+<br />
+<br />
+  <img src="https://i.ibb.co/Z8Y1SKD/launcher-icon.png" width="200" alt="Personal Agenda" border="0">
+<br />
+<br />
 PERSONAL AGENDA
 </h1>
 
