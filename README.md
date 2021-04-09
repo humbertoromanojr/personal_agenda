@@ -1,6 +1,4 @@
 <h1 align="center">
-<br />
-<br />
   <img src="https://i.ibb.co/Z8Y1SKD/launcher-icon.png" width="200" alt="Personal Agenda" border="0">
 <br />
 <br />
@@ -20,8 +18,8 @@ PERSONAL AGENDA
 
 ## MOBILE
 
--   :blue_heart:  **Dart** — Is a client-optimized language for fast apps on any platform
-- ️ :blue_heart:  **Flutter** — Is Google’s UI toolkit for building beautiful, natively compiled applications for mobile Android and IOS, web, and desktop from a single codebase.
+:dart:   :blue_heart:    **Dart** — Is a client-optimized language for fast apps on any platform
+:dart:   :blue_heart:    **Flutter** — Is Google’s UI toolkit for building beautiful, natively compiled applications for mobile Android and IOS, web, and desktop from a single codebase.
 
 :dart:   [cupertino_icons](https://pub.dev/packages/cupertino_icons) <br>
 :dart:   [sqflite](https://pub.dev/packages/sqflite) <br>
