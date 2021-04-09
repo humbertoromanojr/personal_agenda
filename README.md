@@ -25,6 +25,8 @@ PERSONAL AGENDA
 :dart:   [sqflite](https://pub.dev/packages/sqflite) <br>
 :dart:   [url_launcher](https://pub.dev/packages/url_launcher) <br>
 :dart:   [image_picker](https://pub.dev/packages/image_picker) <br>
+:dart:   [flutter_launcher_icons](https://pub.dev/packages/flutter_launcher_icons) <br>
+
 
 
 ## Install project
