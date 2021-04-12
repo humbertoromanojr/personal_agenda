@@ -55,12 +55,20 @@ class _HomePageState extends State<HomePage> {
         child: Icon(Icons.add),
         backgroundColor: Colors.indigoAccent,
       ),
-      body: ListView.builder(
-          padding: EdgeInsets.all(10.0),
-          itemCount: contacts.length,
-          itemBuilder: (context, index) {
-            return _contactCard(context, index);
-          }),
+      body: Stack(
+        children: <Widget>[
+          Image.asset('images/background.png',
+            fit: BoxFit.cover,
+            height: 1000.0,
+          ),
+          ListView.builder(
+              padding: EdgeInsets.all(10.0),
+              itemCount: contacts.length,
+              itemBuilder: (context, index) {
+                return _contactCard(context, index);
+              }),
+        ],
+      )
     );
   }
 
