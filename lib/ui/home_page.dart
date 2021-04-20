@@ -57,10 +57,10 @@ class _HomePageState extends State<HomePage> {
       ),
       body: Stack(
         children: <Widget>[
-          Image.asset('images/background.png',
-            fit: BoxFit.cover,
-            height: 1000.0,
-          ),
+          //Image.asset('images/background.png',
+            //fit: BoxFit.cover,
+           // height: 1000.0,
+          //),
           ListView.builder(
               padding: EdgeInsets.all(10.0),
               itemCount: contacts.length,
