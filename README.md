@@ -38,7 +38,7 @@ Copy project
   <img src="https://i.ibb.co/W3MzhzY/personal-agenda.png" alt="personal-agenda" border="0">
 <br>
 <br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/A6Wyv4YgKx8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[<img src="https://img.youtube.com/vi/A6Wyv4YgKx8/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=A6Wyv4YgKx8)
 
 ## License
 
